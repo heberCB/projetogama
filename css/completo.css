@@ -1,0 +1,654 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu {
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 25px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        width: 100%;
+    }
+
+    .menu {
+        width: 100%;
+    }
+}
+
+.logo:hover {
+    opacity: 0.6;
+}
+
+.listamenu {
+    display: flex;
+    list-style: none;
+}
+
+.listamenu a {
+    color: #FDFDFD;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.listamenu a:hover {
+    color: #d1cdcd;
+}
+
+/* #bannerprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+#ilustra-banner{
+    padding-top: 145px;
+    padding-bottom: 66px;
+}
+
+.textobanner h1{
+    color: #f5418e;
+    width: 512px;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.textobanner h2{
+    color: #5c5c5c;
+    font-weight: 500;
+    opacity: 0.9;
+    padding-top: 19px;
+    padding-bottom: 32px;
+} */
+
+#titulo {
+    /* position: absolute; */
+    /*   width: 488px;
+    height: 216px;
+    left: 100px;
+    top: 100px; */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 67px;
+    margin: 0px;
+
+    color: #FF4081;
+}
+
+@media (max-width:600px) {
+    #titulo {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #banner_descricao {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 40px;
+
+    }
+    
+    .banner {
+        margin-top: 7%;
+        margin-left: 12%;
+        margin-right: 12%;
+        margin-bottom: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+        gap: 10%;
+    }
+    
+    #banner1 {
+        width: 100%;
+    }
+    
+    #banner2 {
+        width: 100%;
+    }
+
+}
+
+.banner {
+    margin-top: 7%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    gap: 5%;
+}
+
+#banner1 {
+    width: 50%;
+}
+
+#banner2 {
+    width: 50%;
+}
+
+#home_img {
+    width: 100%;
+}
+
+/* Vem comigo que te mostro por onde começar */
+
+#banner_descricao {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: #555555;
+}
+
+/* quero saber mais */
+
+.banner_button {
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: #FF4081;
+
+
+    /* Rectangle 12 */
+
+    box-sizing: border-box;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+}
+
+/* ilustra-banner */
+
+/* .botaobranco{
+    background-color: #ffffff;
+    font-size: 27px;
+    font-weight: 400;
+    color: #f5418e;
+    border: #f5418e solid;
+    border-radius: 50px;
+    padding: 10px 20px;
+} */
+
+.botaobranco:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.botaobranco a {
+    text-decoration: none;
+    color: #f5418e;
+}
+
+.botaorosa {
+    width: 233px;
+    height: 51px;
+    background-color: #f5418e;
+    font-size: 20px;
+    font-weight: 400;
+    align-content: center;
+    color: #ffffff;
+    border: none;
+    border-radius: 62px;
+    padding: 10px 20px;
+}
+
+.botaorosa:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.cardspost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 45px;
+}
+
+#conhecacursospost {
+    background: #F7F7F7;
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 129x;
+}
+
+.cardcursospost {
+    width: 370px;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: last baseline;
+}
+
+.cardcursospost img {
+    display: flex;
+    height: 279.0556640625px;
+    justify-content: space-evenly;
+    padding-bottom: 43px;
+}
+
+
+.cardcursospost h3 {
+    display: flex;
+    font-weight: 700;
+    font-size: 29px;
+    font-style: bold;
+    line-height: 29px;
+    padding-bottom: 20px;
+    color: #FF4081;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.cardcursospost p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+#depoimentos {
+    background-color: #ffffff;
+    padding-left: 128px;
+}
+
+#depoimentos2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 119px;
+}
+
+.depoimentos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 86px;
+    /* flex-wrap: wrap; */
+    width: 600px;
+}
+
+@media (max-width:600px){
+    .depoimentos{
+        width:100%
+    }
+}
+
+
+#depoimentos h1 {
+    color: #2e948a;
+    font-weight: 700;
+    font-size: 37px;
+    text-align: left;
+    padding: 119px 10px 78px 0px;
+}
+
+.depoimentos h2 {
+    font-style: light;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    padding: 5px;
+}
+
+.depoimentos h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    padding: 5px;
+}
+
+.depos {
+    width: 104px;
+    height: 104px;
+    padding-right: 100px;
+}
+
+#maisconteudo {
+    box-sizing: border-box;
+    width: auto;
+    background-color: #f6f6f6;
+}
+
+#maisconteudo h1 {
+    text-align: left;
+    padding-top: 70px;
+    padding-bottom: 55px;
+    padding-left: 40px;
+    color: #2e948a;
+    font-weight: 700;
+    font-size: 37px;
+}
+
+.retangulo {
+    background: #c4c4c4;
+    width: 319px;
+    height: 193px;
+}
+
+.griditens {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.itemblog {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
+    padding-top: 23px;
+    padding-bottom: 50px;
+}
+
+.itemblog h2 {
+    color: #2e948a;
+    padding-left: 0px;
+    font-weight: 700;
+    font-size: 27px;
+}
+
+#botaoposts {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 63px;
+}
+
+footer {
+    background: #419488;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+@media (max-width:600px){
+    footer {
+        background: #419488;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+ /*        padding: 40px; */
+    }
+}
+
+.listafooter {
+    list-style: none;
+    padding: 8px;
+}
+
+
+.listafooter a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.listafooter a:hover {
+    color: #d1cdcd;
+}
+
+.botoesfooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.botaofooter {
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: 8px;
+    color: #FFFFFF;
+    background-color: #419488;
+    cursor: pointer;
+}
+
+.botaofooter a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.botaofooter:hover {
+    background-color: #30655d;
+}
+
+.bannercontato {
+    display: flex;
+    flex-wrap: flex;
+    padding: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bannercont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mais_conteudo {
+    background: #F7F7F7;
+    width: 100%;
+    height: auto;
+    padding-left: 128px;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+#grid_mais_conteudo {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.quadrado {
+    width: 100%;
+    height: 193px;
+    background-color: gray;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    #grid_mais_conteudo {
+        grid-template-columns: 1fr;
+    }
+    #mais_conteudo {
+        background: #F7F7F7;
+        width: 100%;
+        height: auto;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+}
+
+.titulo_mais_conteudo {
+    font-size: 37px;
+    text-align: center;
+    font-weight: 600;
+    color: #009688;
+    text-align: left;
+    align-items: first baseline;
+}
+
+.titulo_mais_conteudo_sub {
+    font-size: 27px;
+    text-align: center;
+    font-weight: 600;
+    color: #009688;
+    text-align: left;
+    align-items: first baseline;
+
+}
+
+.texto_mais_conteudo {
+    font-family: 'Nunito';
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 20px;
+    color: black;
+    align-items: first baseline;
+}
+
+.botoes_cursos {
+    margin: 0 auto;
+    width: 20px;
+    height: 5px;
+    text-align: center;
+    vertical-align: baseline;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    align-items: first baseline;
+
+
+    /* Rectangle 12 */
+
+    box-sizing: border-box;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background-color: #FF4081;
+}
+
+.botao_ver_todos_posts {
+
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    align-items: center;
+    color: #FF4081;
+    box-sizing: border-box;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+}
+
+.ver_todos {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:834px) {
+    .logo {
+        width: 150px;
+    }
+
+    .listamenu a {
+        font-weight: 500;
+        font-size: 18px;
+
+    }
+
+
+    .botaofooter {
+        font-size: 18px;
+        width: 200px;
+
+    }
+}
+
+@media only screen and (max-width:568px) {
+    .logo {
+        width: 90px;
+    }
+
+    .menu {
+        padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .listamenu a {
+        font-weight: 500;
+        font-size: 13px;
+        padding-left: 10px;
+        line-height: 0px;
+    }
+
+
+
+    footer {
+        padding: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .listafooter {
+        padding: 0px;
+
+    }
+
+    .listaul {
+        padding-left: 0px;
+    }
+
+    .listafooter a {
+        font-size: 11px;
+        line-height: 23px;
+    }
+
+    .botaofooter {
+        font-size: 12px;
+        line-height: 0px;
+        width: 120px;
+        height: 25px;
+        margin: 4px;
+    }
+
+}
